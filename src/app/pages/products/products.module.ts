@@ -7,7 +7,6 @@ import { ProductsComponent } from './products.component';
 import { ProductComponent } from './product/product.component';
 
 import { MaterialModule } from './../../material.module';
-// './../../material.module o src/app/material.module'
 
 
 
