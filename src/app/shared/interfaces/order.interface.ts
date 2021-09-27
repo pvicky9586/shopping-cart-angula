@@ -9,11 +9,12 @@ export interface Order{
   shippingAddress: string;
   city: string;
   date: string;
-  pickup: boolean;
+  isDelivery: boolean;
   id: number;
 }
 
 export interface DetailsOrder{
     details: Details[];
     orderId: number;
+    //id?: number;
 }
